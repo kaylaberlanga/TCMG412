@@ -6,7 +6,7 @@ with open(r"412Project3.txt", 'r') as fp:
 
 print('Total Number of Lines', count)
 
-words = ["Oct", "Sep", "Aug", "Jul", "Jun", "May"]
+words = ["Oct", "Sep", "Aug", "Jul", "Jun", "May", "Apr", "1995"]
 count =0
 with open(r'412Project3.txt', 'r') as fp:
     lines = fp.readlines()
