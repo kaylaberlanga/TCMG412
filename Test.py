@@ -5,7 +5,7 @@ with open(r'412Project3.txt', 'r') as fp:
     for line in lines:
         if any(words in line for words in words):
             count += 1 
-print('Total Requests in the 6 months', count)
+print('Total Requests in the 6 months is', count)
 
 with open(r"412Project3.txt", 'r') as fp:
     count = 0
@@ -13,4 +13,4 @@ with open(r"412Project3.txt", 'r') as fp:
         if line != "\n":
             count += 1
 
-print('Total Number of Lines', count)
+print('Total Number of Lines is', count)
