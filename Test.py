@@ -5,7 +5,7 @@ with open(r'412Project3.txt', 'r') as fp:
     for line in lines:
         if any(words in line for words in words):
             count += 1 
-print('Total requests that had been made in the 6 months', count)
+print('Total requests that were made in the 6 months is', count)
 
 with open(r"412Project3.txt", 'r') as fp:
     count = 0
